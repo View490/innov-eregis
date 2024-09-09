@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "root": true,
+  // FIXME: change 0 to 1 (warn) 0r 2 (error)
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "warn",
+    "@typescript-eslint/ban-types": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-non-null-asserted-optional-chain": "warn",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-var-requires": "off",
+    "no-case-declarations": "off",
+    "no-console": "warn",
+    "no-empty": "off",
+    "no-extra-boolean-cast": "off",
+    "no-extra-semi": "off",
+    "no-undef": "off",
+    "no-unreachable": "off",
+    "no-unused-vars": "off",
+    "no-useless-escape": "off",
+  },
+}
